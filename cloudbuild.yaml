@@ -5,7 +5,7 @@ steps:
       - '-c'
       - |
         echo ${SHORT_SHA} && \
-        echo ${COMMIT_SHA} && \
+        echo ${COMMIT_SHA}
     id: "Read FILES"
  options:
  logging: CLOUD_LOGGING_ONLY
